@@ -25,6 +25,7 @@ Dataset split:
 
 90% Training
 10% Validation
+
 Training Process
 The model was trained for multiple epochs to ensure proper learning and convergence. During training, the training loss consistently decreased, showing that the model was effectively learning from the data. The validation loss initially improved and later stabilized, indicating the model’s generalization behavior. Based on both validation performance and the quality of generated captions, a balanced checkpoint around epoch 8–10 was selected for the final model to ensure coherent caption generation and stable performance on unseen images.
 
@@ -43,7 +44,6 @@ Five random test images were selected to qualitatively evaluate the model. For e
 App Deployment
 To demonstrate the model interactively, a web-based interface was built using Gradio. The application allows users to upload an image and receive an automatically generated caption in real time. This deployment makes the model accessible and showcases its practical usability beyond training and evaluation.
 
-Press enter or click to view image in full size
 
 Conclusion
 This project successfully combines Computer Vision and Natural Language Processing to generate captions from images using a CNN–LSTM architecture. By integrating Beam Search and proper evaluation metrics, the model produces coherent and meaningful captions. The deployment further highlights the practical application of deep learning models in real-world scenarios.
