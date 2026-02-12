@@ -47,6 +47,4 @@ To demonstrate the model interactively, a web-based interface was built using Gr
 
 Conclusion
 This project successfully combines Computer Vision and Natural Language Processing to generate captions from images using a CNN–LSTM architecture. By integrating Beam Search and proper evaluation metrics, the model produces coherent and meaningful captions. The deployment further highlights the practical application of deep learning models in real-world scenarios.
-Added special tokens: <start> and <end>
-Tokenization & vocabulary creation
-Padding sequences to fixed length
+
